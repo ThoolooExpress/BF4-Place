@@ -1,0 +1,102 @@
+<!-- index_content.html -->
+<!DOCTYPE html>
+<head>
+	<!-- main stylesheet -->
+	<link rel="stylesheet" href="../css/bf4_place.css">
+	<!-- JQuery -->
+	<script src="../js/jquery-1.11.0.min.js"></script>
+	<!-- hoverIntent -->
+	<script src="../js/hoverIntent.js"></script>
+	<!-- TweenMax -->
+	<script src="../js/TweenMax.min.js"></script>
+	<!-- Floating Menu Script -->
+	<script src="../js/floatingmenu.js"></script>
+	<script>
+	<!--
+	var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+	$(document).keydown(function(e) {
+		kkeys.push( e.keyCode );
+		if ( kkeys.toString().indexOf( konami ) >= 0 ){
+			$(document).unbind('keydown',arguments.callee);
+			$.getScript('http://www.cornify.com/js/cornify.js',function(){
+				cornify_add();
+				$(document).keydown(cornify_add);
+			});
+		}
+	});
+	//-->
+	</script>
+	<script src="../js/news-box.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div id="menubar">
+			<ul class="root-menu">
+				<!-- <li id="home-icon"> -->
+				<a href="index.html" id="home-icon"><img src="../img/icon.png" alt="Home"></a>
+			</li>
+			<li id="has-child">
+				<a href="#" id="dropdown-header">Blog</a>
+				<ul class="sub-menu hidden">
+					<li><div><a href="#">Latest Post</a></div></li>
+					<li><div><a href="#">View All</a></div></li>
+					<li><div><a href="#">The Gallery</a></div></li>
+				</ul>
+			</li>
+			<li id="has-child">
+				<a href="#" id="dropdown-header">Battlefield 4</a>
+				<ul class="sub-menu hidden">
+					<li><div><a href="#">Gun Reviews</a></div></li>
+					<li><div><a href="#">Server Reviews</a></div></li>
+					<li><div><a href="#">Battlefield Moments</a></div></li>
+				</ul>
+			</li>
+			<li id="has-child">
+				<a href="#" id="dropdown-header">About</a>
+				<ul class="sub-menu hidden">
+					<li><div><a href="#">Contact</a></div></li>
+					<li><div><a href="../about.html">About Me</a></div></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- start empty div -->
+	<div id="push-top">
+	</div>
+	<!-- end empty div -->
+	<div id="title">
+		<img src="../img/Title-Splash.jpg">
+	</div>
+	<div class="content-area">
+		<table id="columns">
+			<tr>
+				<td>
+					<iframe src="new_posts.html" id="new-posts">
+					</iframe>
+				</td>
+				<td>
+					<div id="site-description">
+						Welcome to BF4 place, the only site dedicated to BF4 stratigies, servers, and just general fun stuff relating to Battlefield 4!
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!-- start empty div -->
+	<div id="push-bottom">
+	</div>
+	<!-- end empty div -->
+</div>
+<div id="footer">
+	<div>
+		<span id="copyright">
+			&copy;2014 - Richard Morrill
+		</span>
+		<span id="info">
+			<a href="#">Privacy Policy</a>&nbsp;<a href="#">Contact</a>
+		</span>
+	</div>
+</div>
+</body>
+</html>

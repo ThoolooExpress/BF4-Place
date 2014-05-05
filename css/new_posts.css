@@ -1,0 +1,25 @@
+/*
+*	new_posts.css
+*/
+
+#new-posts-title {
+	padding: 20px;
+	font-size: 40px;
+	font-family: impact, arial, sans-serif;
+}
+
+.new-posts-entry-title {
+	background-color: #000000;
+	padding: 5px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+
+}
+.new-posts-entry {
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border: 5px solid #000000;
+	overflow: hidden;
+	font-family: sans-serif;
+}
