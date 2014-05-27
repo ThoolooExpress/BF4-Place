@@ -1,2 +1,4 @@
 *.sublime*
 rethinkdb
+.DS_Store
+
