@@ -211,13 +211,14 @@ hr#title-bottom {
 .body-container {
 	margin: 0px;
 	height: 100%;
-	width: 100%;
+	width: 500px;
+	border: 1px solid;
 }
+
 
 .main-body {
 	text-indent: 50px;
 	margin: 30px;
-	margin-right: 400px;
 	padding: 5px;
 	font-family: 'Nova Square', Avenir Next, arial, sans-serif;
 }

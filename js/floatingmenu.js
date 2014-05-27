@@ -22,7 +22,7 @@ function updatePosition() {
 }
 
 function scrollUp() {
-	if (scrollingUp == 0) {
+	if (scrollingUp === 0) {
 		$('#menubar').css('position', 'absolute');
 		catchPosition = newPosition - 67;
 		if (catchPosition < 0) {
